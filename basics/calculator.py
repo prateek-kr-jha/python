@@ -25,10 +25,16 @@ def calculator(num1, num2, operator):
         elif operator == "-":
             return num1 - num2
         elif operator == "/":
+            if num2 == 0:
+                raise ValueError("division by zero")
             return num1 / num2
         elif operator == "//":
+            if num2 == 0:
+                raise ValueError("division by zero")
             return num1 // num2
         elif operator == "%":
+            if num2 == 0:
+                raise ValueError("division by zero")
             return num1 % num2
         elif operator == "**":
             return num1 ** num2

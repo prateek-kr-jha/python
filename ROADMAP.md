@@ -2,6 +2,7 @@
 ====================
 - [x] variable declaration
 - [x] operators and casting
+- [ ] print function
 - [ ] data types
 - [ ] declaration and operation on data types
 - [ ] conditionals and looping
@@ -112,3 +113,4 @@ in general any non-zero numeric value will be converted to "True"
 
 #### checking data types
     __print(type(variable))__
+    **isinstance(num1, (int, float))**
