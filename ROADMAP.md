@@ -79,7 +79,22 @@
 ```
 in general any non-zero numeric value will be converted to "True"
 
+===================================
+# Print function
+===================================
+### formatted string or f string
+-  an f-string, also known as a formatted string literal, is a way to embed expressions inside string literals, using curly braces {}
 
+```python3
+message = f"Hello, my name is {name} and I am {age} years old."
+print(message)
+pi = 3.14159
+
+# Formatting numeric values in f-string
+formatted_pi = f"The value of pi is approximately {pi:.2f}."
+print(formatted_pi)
+
+```
 ===================================
 # Variable Declaration & Data types
 ===================================
