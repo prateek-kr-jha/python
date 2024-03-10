@@ -1,4 +1,4 @@
-# Python Roadmap (Can be used for any language)
+# Python Road-map (Can be used for any language)
 ====================
 - [x] variable declaration
 - [x] operators and casting
@@ -7,6 +7,7 @@
 - [ ] conditionals and looping
 - [ ] functions
 - [ ] classes
+- [ ] error handling
 - [ ] i/o
 - [ ] project(as per the need)
 
@@ -55,6 +56,27 @@
     num_str = "123"
     num_int = int(num_str)
 ```
+
+- converts to float:
+
+```python3
+    num_float = float(num_str)
+```
+
+- converts to String
+
+```python3
+    num_int = 123
+    num_str = str(num_int)
+```
+
+- converts to Boolean
+
+```python3
+    value = 0
+    bool_value = bool(value)
+```
+in general any non-zero numeric value will be converted to "True"
 
 
 ===================================
