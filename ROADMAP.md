@@ -1,13 +1,62 @@
 # Python Roadmap (Can be used for any language)
 ====================
--  variable declaration
--  data types
--  conditionals and looping
--  decalaration and operation on data types
--  functions
--  classes
--  i/o
--  project(as per the need)
+- [x] variable declaration
+- [x] operators and casting
+- [ ] data types
+- [ ] declaration and operation on data types
+- [ ] conditionals and looping
+- [ ] functions
+- [ ] classes
+- [ ] i/o
+- [ ] project(as per the need)
+
+
+===================================
+# Operators & Casting
+===================================
+### Operators
+1. Arithmetic Operators:
+    - addition: 5 + 3
+    - subtraction: 5 -3
+    - multiplication: 5 * 3
+    - division: 5/3
+    - floor division: 5 // 2 = 2;  It performs division between two numbers and rounds down the result to the nearest integer
+    - remainder: 5 % 3
+    - exponentiation: 5 ** 3
+
+2. Comparison Operators:
+    - equals to 5 == 3
+    - not equals to 5 != 3
+    - greater than 5 > 3
+    - less than 5 < 3
+    - greater or equal to 5 >= 3
+    - less than equal to 5 <= 3
+
+3. Logical operator:
+    - and: True and False
+    - or: True or False
+    - not: not True
+
+4. Assignment Operators:
+    - assignment: x = 5
+    - add and assign: x += 3
+    - subtract and assign: x -= 2
+    - multiply and assign: x *= 4
+    - divide and assign: x /= 2
+
+5. Membership Operators:
+    - in : 5 in [1,2,3,4,5]
+    - not in: 5 not in [1,2,3,4]
+
+### Casting
+- converts to integer:
+
+```python
+    num_str = "123"
+    num_int = int(num_str)
+```
+
+
 ===================================
 # Variable Declaration & Data types
 ===================================
