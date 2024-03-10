@@ -1,5 +1,5 @@
 # Python Road-map (Can be used for any language)
-====================
+
 - [x] variable declaration
 - [x] operators and casting
 - [ ] print function
@@ -13,9 +13,9 @@
 - [ ] project(as per the need)
 
 
-===================================
+
 # Operators & Casting
-===================================
+
 ### Operators
 1. Arithmetic Operators:
     - addition: 5 + 3
@@ -79,9 +79,8 @@
 ```
 in general any non-zero numeric value will be converted to "True"
 
-===================================
 # Print function
-===================================
+
 ### formatted string or f string
 -  an f-string, also known as a formatted string literal, is a way to embed expressions inside string literals, using curly braces {}
 
@@ -95,9 +94,9 @@ formatted_pi = f"The value of pi is approximately {pi:.2f}."
 print(formatted_pi)
 
 ```
-===================================
+
 # Variable Declaration & Data types
-===================================
+
 ### declaration
         my_variable = 10
 
