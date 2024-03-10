@@ -125,7 +125,8 @@ print(formatted_pi)
             Absence of a value or a null value.
             - None
 
-#### checking data types:
-
+### checking data types:
+------------
 __print(type(variable))__
+
 **isinstance(num1, (int, float))**
