@@ -126,6 +126,5 @@ print(formatted_pi)
             - None
 
 ### checking data types:
-
-__print(type(variable))__<br>
-**isinstance(num1, (int, float))**
+    __print(type(variable))__<br>
+    **isinstance(num1, (int, float))**
