@@ -8,6 +8,7 @@
 - [ ] conditionals and looping
 - [ ] functions
 - [ ] classes
+- [ ] testing
 - [ ] error handling
 - [ ] i/o
 - [ ] project(as per the need)
@@ -128,3 +129,45 @@ print(formatted_pi)
 ### checking data types:
     __print(type(variable))__<br>
     **isinstance(num1, (int, float))**
+
+# Operation on Data types:
+
+## List:
+1. Itteration:
+- for loop:
+```python3
+    my_list = [1, 2, 3, 4, 5]
+
+# Iterating over the list using a for loop
+for item in my_list:
+    print(item)
+```
+
+- List Comprehension:
+
+```python3
+my_list = [1, 2, 3, 4, 5]
+
+# Iterating over the list using list comprehension
+squared_values = [item ** 2 for item in my_list]
+```
+
+- Using Enumerate for Index and values:
+```python3
+my_list = ['apple', 'banana', 'cherry']
+
+# Iterating over the list using enumerate to get both index and value
+for index, value in enumerate(my_list):
+    print(f"Index: {index}, Value: {value}")
+```
+
+- Using "While" loop:
+```python3
+my_list = [1, 2, 3, 4, 5]
+
+# Iterating over the list using a while loop
+index = 0
+while index < len(my_list):
+    print(my_list[index])
+    index += 1
+```

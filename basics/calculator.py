@@ -46,6 +46,7 @@ def calculator(num1, num2, operator):
 
 
 
+
 num1 = float(input("enter num1: "))
 num2 = float(input("enter num2: "))
 operator = input("enter operator: ")
