@@ -12,7 +12,7 @@
 - [ ] error handling
 - [ ] i/o
 - [ ] project(as per the need)
-
+- [ ] taking input from command line**
 
 
 # Operators & Casting
@@ -82,6 +82,8 @@ in general any non-zero numeric value will be converted to "True"
 
 # Print function
 
+- **print(1, end=" ")**
+
 ### formatted string or f string
 -  an f-string, also known as a formatted string literal, is a way to embed expressions inside string literals, using curly braces {}
 
@@ -133,41 +135,106 @@ print(formatted_pi)
 # Operation on Data types:
 
 ## List:
-1. Itteration:
-- for loop:
-```python3
+    1. Itteration:
+    - for loop:
+    ```python3
+        my_list = [1, 2, 3, 4, 5]
+
+    # Iterating over the list using a for loop
+    for item in my_list:
+        print(item)
+    ```
+
+    - List Comprehension:
+
+    ```python3
     my_list = [1, 2, 3, 4, 5]
 
-# Iterating over the list using a for loop
-for item in my_list:
-    print(item)
-```
+    # Iterating over the list using list comprehension
+    squared_values = [item ** 2 for item in my_list]
+    ```
+    - Using Enumerate for Index and values:
 
-- List Comprehension:
+    ```python3
+    my_list = ['apple', 'banana', 'cherry']
 
-```python3
-my_list = [1, 2, 3, 4, 5]
+    # Iterating over the list using enumerate to get both index and value
+    for index, value in enumerate(my_list):
+        print(f"Index: {index}, Value: {value}")
+    ```
+    - Using "While" loop:
+    ```python3
+    my_list = [1, 2, 3, 4, 5]
 
-# Iterating over the list using list comprehension
-squared_values = [item ** 2 for item in my_list]
-```
+    # Iterating over the list using a while loop
+    index = 0
+    while index < len(my_list):
+        print(my_list[index])
+        index += 1
+    ```
 
-- Using Enumerate for Index and values:
-```python3
-my_list = ['apple', 'banana', 'cherry']
+    2. Accessing Elements:
+    ```python3
+    # Accessing elements by index
+    first_element = my_list[0]
+    second_element = my_list[1]
 
-# Iterating over the list using enumerate to get both index and value
-for index, value in enumerate(my_list):
-    print(f"Index: {index}, Value: {value}")
-```
+    # Accessing elements from the end of the list
+    last_element = my_list[-1]
+    second_last_element = my_list[-2]
 
-- Using "While" loop:
-```python3
-my_list = [1, 2, 3, 4, 5]
+    ```
 
-# Iterating over the list using a while loop
-index = 0
-while index < len(my_list):
-    print(my_list[index])
-    index += 1
-```
+    3. Slicing:
+    ```python3
+    # Slicing a sublist
+    sublist = my_list[1:4]  # Elements at index 1, 2, and 3
+    ```
+
+    4. Adding elements:
+    ```python3
+    # Appending an element to the end of the list
+    my_list.append(6)
+
+    # Extending the list with another list
+    my_list.extend([7, 8, 9])
+
+    # Inserting an element at a specific index
+    my_list.insert(2, 10)  # Insert 10 at index 2
+    ```
+
+    5. Removing Elements:
+    ```python3
+    # Removing an element by value
+    my_list.remove(3)
+
+    # Removing an element by index
+    removed_element = my_list.pop(1)  # Removes the element at index 1 and returns it
+
+    # Clearing the entire list
+    my_list.clear()
+    ```
+
+    6. Modifying Elements:
+    ```python3
+    # Modifying an element by index
+    my_list[0] = 100
+    ```
+
+    7. List Comprehension:
+    ```python3
+    # Creating a new list using list comprehension
+    squared_values = [x ** 2 for x in my_list]
+    ```
+
+    8. Finding Length:
+    ```python3
+    # Finding the length of the list
+    list_length = len(my_list)
+    ```
+
+    9. Checking for existence:
+    ```python3
+    # Checking if an element is in the list
+    is_present = 5 in my_list
+    ```
