@@ -15,9 +15,9 @@
 - [ ] taking input from command line**
 
 
-# Operators & Casting
+# Operators & Casting <a name="operators-casting"></a>
 
-### Operators{#operators-casting}
+### Operators
 1. Arithmetic Operators:
     - addition: 5 + 3
     - subtraction: 5 -3
@@ -80,7 +80,7 @@
 ```
 in general any non-zero numeric value will be converted to "True"
 
-# Print function {#print-function}
+# Print function {<a name="print-function"></a>}
 
 - **print(1, end=" ")**
 
