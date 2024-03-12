@@ -17,7 +17,7 @@
 
 # Operators & Casting
 
-### Operators <a name="operators-casting"></a>
+### Operators {#operators-casting}
 1. Arithmetic Operators:
     - addition: 5 + 3
     - subtraction: 5 -3
@@ -80,7 +80,7 @@
 ```
 in general any non-zero numeric value will be converted to "True"
 
-# Print function <a name="print-function"></a>
+# Print function {#print-function}
 
 - **print(1, end=" ")**
 
