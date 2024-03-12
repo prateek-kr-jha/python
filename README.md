@@ -1,11 +1,11 @@
 # Python Road-map (Can be used for any language)
 
-- [x] [variable declaration]
+- [x] variable declaration
 - [x] [operators and casting](#operators-casting)
 - [ ] [print function](#print-function)
 - [ ] data types
+- [ ] [conditionals and looping](#conditionals-loop)
 - [ ] declaration and operation on data types
-- [ ] conditionals and looping
 - [ ] functions
 - [ ] classes
 - [ ] testing
@@ -131,6 +131,37 @@ print(formatted_pi)
 ### checking data types:
     __print(type(variable))__<br>
     **isinstance(num1, (int, float))**
+
+# conditionals & loops:<a name="#conditionals-loop"></a>
+## loops:
+    1. `for` loop:
+        The for loop is used for iterating over a sequence (such as a list, tuple, string, or range) or other iterable objects.
+        ```python3
+        # Iterating over a list
+        fruits = ['apple', 'banana', 'cherry']
+        for fruit in fruits:
+        print(fruit)
+        ```
+
+    2. `while` loop:
+        ```python3
+        # Using a while loop to print numbers from 1 to 5
+        count = 1
+        while count <= 5:
+        print(count)
+        count += 1
+        ```
+
+    3. `range()` function:
+        ```python3
+        # Using range() to iterate over numbers from 0 to 4
+        for num in range(5):
+        print(num)
+        ```
+    *** range()
+    range(stop)
+    range(start, stop[, step])
+
 
 # Operation on Data types:
 
