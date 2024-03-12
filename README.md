@@ -17,7 +17,7 @@
 
 # Operators & Casting
 
-### Operators {#operators-casting}
+### Operators{#operators-casting}
 1. Arithmetic Operators:
     - addition: 5 + 3
     - subtraction: 5 -3
