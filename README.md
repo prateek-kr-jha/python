@@ -1,8 +1,8 @@
 # Python Road-map (Can be used for any language)
 
-- [x] variable declaration
-- [x] operators and casting
-- [ ] print function
+- [x] [variable declaration]
+- [x] [operators and casting](#operators-casting)
+- [ ] [print function](#print-function)
 - [ ] data types
 - [ ] declaration and operation on data types
 - [ ] conditionals and looping
@@ -17,7 +17,7 @@
 
 # Operators & Casting
 
-### Operators
+### Operators <a name="operators-casting"></a>
 1. Arithmetic Operators:
     - addition: 5 + 3
     - subtraction: 5 -3
@@ -80,7 +80,7 @@
 ```
 in general any non-zero numeric value will be converted to "True"
 
-# Print function
+# Print function <a name="print-function"></a>
 
 - **print(1, end=" ")**
 
