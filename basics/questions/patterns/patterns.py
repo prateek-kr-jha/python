@@ -10,11 +10,12 @@ def printHourGlass(n):
     y = n - 2
     for num1 in range(n):
         for num2 in range(n):
-            if(num1 == 0 or num1 == n - 1) or (num2 == 0 or num2 == n - 1) or (num1 == num2) or (num1 + num2 == n - 1):
+            if (num1 == 0 or num1 == n - 1)
+                or (num2 == 0 or num2 == n - 1)
+                or (num1 == num2)
+                or (num1 + num2 == n - 1):
                 print("*", end=" ")
-                #print(f"{str(num1) + str(num2)} ", end="")
             elif(num2 >= x and num2 <= y) and (y >= x):
-                #print(f"{str(num1) + str(num2)}", end=" ")
                 print("*", end=" ")
             else:
                 print(" ",end=" ")
