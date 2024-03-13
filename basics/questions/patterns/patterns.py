@@ -5,19 +5,27 @@ def printTrinagle(n):
                 print("*", end=" ")
         print()
 
-def printM(n):
+def printHourGlass(n):
+    x = 1
+    y = n - 2
     for num1 in range(n):
         for num2 in range(n):
-            if(num2 == 0 or num2 == n - 1) or (num1 == num2) or (num1 + num2 == n - 1):
-                print(f"{num1 + num2}", end=" ")
+            if(num1 == 0 or num1 == n - 1) or (num2 == 0 or num2 == n - 1) or (num1 == num2) or (num1 + num2 == n - 1):
+                print("*", end=" ")
+                #print(f"{str(num1) + str(num2)} ", end="")
+            elif(num2 >= x and num2 <= y) and (y >= x):
+                #print(f"{str(num1) + str(num2)}", end=" ")
+                print("*", end=" ")
             else:
                 print(" ",end=" ")
+        x += 1
+        y -= 1
         print()
 
 def main() :
     num = int(input("enter a number: "))
     #printTrinagle(num)
-    printM(num)
+    printHourGlass(num)
 
 
 
