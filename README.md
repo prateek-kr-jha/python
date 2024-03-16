@@ -269,3 +269,19 @@ print(formatted_pi)
     # Checking if an element is in the list
     is_present = 5 in my_list
     ```
+
+
+# Classes:(OOPS)
+
+A programming paradigm that provides a means of structuring programs so that properties and behaviors are bundled into objects.
+object = function(behaviors) + data(properties)
+
+```python3
+class Employee:
+    def __init__(self, name, age):
+        self.name =  name
+        self.age = age
+```
+    __init__ is used to declare attributes of the instance of class
+- class names are generally ```CapitalizedWords```
+- init initializes each new instance of class, we can give as many parameter to it but the first parameter will always be **`self`**
