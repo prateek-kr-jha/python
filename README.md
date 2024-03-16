@@ -273,6 +273,7 @@ print(formatted_pi)
 
 # Classes:(OOPS)
 
+## creation
 A programming paradigm that provides a means of structuring programs so that properties and behaviors are bundled into objects.
 object = function(behaviors) + data(properties)
 
@@ -285,3 +286,21 @@ class Employee:
     __init__ is used to declare attributes of the instance of class
 - class names are generally ```CapitalizedWords```
 - init initializes each new instance of class, we can give as many parameter to it but the first parameter will always be **`self`**
+    - ### Dunder methods:
+    methods starting with __, e.g. `__init__()`, `__str__()`
+
+## Inheritance:
+Process by which one class takes on the attribute and methods of another.
+
+```python3
+# inheritance.py
+
+class Parent:
+    hair_color = "brown"
+
+class Child(Parent):
+    pass
+```
+Child classes can override or extend the attributes and methods of parent classes.
+
+- isinstance(object, Class)

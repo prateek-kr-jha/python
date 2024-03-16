@@ -6,10 +6,13 @@ class Dog:
 
     def __init__(self, name, age):
         # instance attributes
-        print(self)
+        # print(self)
         self.name = name
         self.age = age
     
+    # special instance method __str__()
+    def __str__(self):
+        return f"{self.name} is {self.age} years old"
     # Instance Method
     def description(self):
         return f"{self.name} is {self.age} years old"
